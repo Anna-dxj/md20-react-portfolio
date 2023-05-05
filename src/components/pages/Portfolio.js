@@ -6,6 +6,8 @@ import passwordGenScreenshot from '../../assets/screenshots/password-generator-s
 import regexTutScreenshot from '../../assets/screenshots/regex-gist-screenshot.png'
 import quizGameScreenshot from '../../assets/screenshots/quiz-game-screenshot.png'
 
+// ORGANIZE BY: FULL-STACK, FRONT-END, BACK-END WITH ALL PROJECTS AT THE FRONT 
+// SPECIFY IF REST API OR NO 
 export default function Portfolio() {
   return (
     <div>
