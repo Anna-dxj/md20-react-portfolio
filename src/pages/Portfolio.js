@@ -1,10 +1,10 @@
 import React from 'react';
-import answerHubScreenshot from '../../assets/screenshots/answerhub-screenshot.png'
-import techBlogScreenshot from '../../assets/screenshots/tech-blog-screenshot.png'
-import simpligameScreenshot from '../../assets/screenshots/simpligame-screenshot.png'
-import passwordGenScreenshot from '../../assets/screenshots/password-generator-screenshot.png'
-import regexTutScreenshot from '../../assets/screenshots/regex-gist-screenshot.png'
-import quizGameScreenshot from '../../assets/screenshots/quiz-game-screenshot.png'
+import answerHubScreenshot from '../assets/screenshots/answerhub-screenshot.png'
+import techBlogScreenshot from '../assets/screenshots/tech-blog-screenshot.png'
+import simpligameScreenshot from '../assets/screenshots/simpligame-screenshot.png'
+import passwordGenScreenshot from '../assets/screenshots/password-generator-screenshot.png'
+import regexTutScreenshot from '../assets/screenshots/regex-gist-screenshot.png'
+import quizGameScreenshot from '../assets/screenshots/quiz-game-screenshot.png'
 
 // ORGANIZE BY: FULL-STACK, FRONT-END, BACK-END WITH ALL PROJECTS AT THE FRONT 
 // SPECIFY IF REST API OR NO 
