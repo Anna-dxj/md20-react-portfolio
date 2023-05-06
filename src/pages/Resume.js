@@ -1,16 +1,18 @@
 import React from 'react';
+import {Download} from 'react-bootstrap-icons'
 
 export default function Home() {
   return (
     <div>
-      <h1>Resume</h1>
-      <a 
-        href={`${process.env.PUBLIC_URL}/resume-langford.pdf`} 
-        className="btn"
-        download
-      >
-        Download
-      </a>
+      <h1>Resume 
+        <a 
+          href={`${process.env.PUBLIC_URL}/resume-langford.pdf`} 
+          className="btn"
+          download
+        >
+          <Download />
+        </a> 
+      </h1>
       <div className="card">
         <h2 className="card-title">Education</h2>
         <div className="card-body">

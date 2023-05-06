@@ -3,10 +3,8 @@ import photoMe from '../assets/images/photo-me.jpeg'
 
 export default function About() {
   return (
-    <div>
-      <div className="m-2 px-2">
-        <h1>About Me</h1>
-      </div>
+    <div className="container">
+      <h1>About Me</h1>
       <div className="container">
         <div className="row d-flex flex-row justify-content-center align-items-start">
           <div className="card p-1 m-1 col-sm-12 col-md-5">
@@ -19,7 +17,7 @@ export default function About() {
             </div>
           </div>
 
-          <div className="card m-1 py-3 px-4 col-sm-12 col-md-5">
+          <div className="card m-1 py-2 px-3 col-sm-12 col-md-5">
               <p className="card-text">
                 Hello, I'm Anna Langford, and I'm a junior full-stack software engineer, specializing in JavaScript.
                 Before pursuing a carreer in tech, I graduated with a degree in Linguistics from Rice University in Houston, Texas.
