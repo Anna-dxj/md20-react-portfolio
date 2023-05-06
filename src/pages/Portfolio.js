@@ -1,5 +1,5 @@
 import React from 'react';
-import ProjectCard from '../components/Card'
+import ProjectCard from '../components/ProjectCard'
 import answerHubScreenshot from '../assets/screenshots/answerhub-screenshot.png'
 import techBlogScreenshot from '../assets/screenshots/tech-blog-screenshot.png'
 import simpligameScreenshot from '../assets/screenshots/simpligame-screenshot.png'
@@ -20,7 +20,7 @@ export default function Portfolio() {
             name="AnswerHub"
             repoLink="https://github.com/Michaelx626/AnswerHub"
             description="AnswerHub is a fullstack social media platform for developers. Through creating an account, a developer would be able to consult an AI for coding or math-related questions and connect with other developers to collaborate on projects or network. AnswerHub is also the product of asmall group project, where I worked on the making the design responsive and improving the UI/UX as well as working on the models."
-            technologies="MySQL Sequelize Handlebars Bootstrap Express Node Daturi Cloudinary Multer OpenAI JavaScript CSS"
+            technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, Daturi, Cloudinary, Multer, OpenAI, JavaScript, CSS"
           />
           <ProjectCard 
             deployedLink="https://secret-island-23664.herokuapp.com/"
@@ -29,7 +29,7 @@ export default function Portfolio() {
             name="Tech Blog"
             repoLink="https://github.com/Anna-dxj/md14-tech-blog"
             description="The Tech Blog is the first full-stack blog for users interested or involved in the Tech industry to post about new discoveries or commentary on technology. After signing up, a user is able to post, comment on others' posts, and update or delete their own posts. The Tech Blog is an application produced fully by me during the UCLA full-stack coding bootcamp."
-            technologies="MySQL Sequelize Handlebars Bootstrap Express Node JavaScript CSS"
+            technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, JavaScript, CSS"
           /> 
         </div>
       {/* <div className="row d-flex flex-row justify-content-center align-items-start">
@@ -55,7 +55,7 @@ export default function Portfolio() {
           name="SimpliGame"
           repoLink="https://github.com/mynamebrogrammer/SimpliGame"
           description="SimpliGame is a basic front-end web application that strives to provide users with a streamlined video game research experience. By reducing irrelevant information, users are able to mak their decision and more quickly and with confidence. Simpligame is aimed at everyone from someone with a passing interest in gaming to hardcore gamers. SimpliGame is the product of a small group project, where I worked on the HTML and CSS design and layout as well as some of the JavaScript logic."
-          technologies="GiantBombAPI WeatherAPI MaterializeCSS jQuery HTML CSS JavaScript"
+          technologies="GiantBomb API & Weather API, Materialize.css, jQuery, HTML, CSS, JavaScript"
         />
         <ProjectCard 
           deployedLink="https://anna-dxj.github.io/md3-friendly-parakeet/"
@@ -64,7 +64,7 @@ export default function Portfolio() {
           name="Password Generator"
           repoLink="https://github.com/Anna-dxj/md3-friendly-parakeet"
           description="The Password Generator is one of my early front-end applications. It uses JavaScript to generate a random password based on the user's input. The Password Generator's JavaScripted logic was produced by me during the UCLA full-stack coding bootcamp."
-          technologies="HTML CSS JavaScript"
+          technologies="HTML, CSS, JavaScript"
         />
         <ProjectCard 
           deployedLink="https://anna-dxj.github.io/md4-quiz-game/"
@@ -73,7 +73,7 @@ export default function Portfolio() {
           name="JavaScript Coding Quiz Challenge"
           repoLink="https://github.com/Anna-dxj/md4-quiz-game"
           description="The JavaScript Coding Quiz Challenge is another one of my early, simple front-end application that quizes a user on the basics of JavaScript. It is a timed quiz and penalizes a user for incorrect answer by deducting a certain amount of time from their remaining time. Upon completion, a user is able to save their score and see how their score compares to others. The JavaScript Coding Quiz Challenge is a simple front-end application fully produced by me during the UCLA full-stack coding bootcamp."
-          technologies="HTML CSS JavaScript"
+          technologies="HTML, CSS, JavaScript"
         />
       </div>
     </div>

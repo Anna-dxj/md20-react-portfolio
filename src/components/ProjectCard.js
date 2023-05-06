@@ -24,7 +24,7 @@ export default function ProjectCard({deployedLink, imgSrc, imgAlt, name, repoLin
               <p className="card-text">{description}</p>
               {technologies ? (
                 <p className="card-text">
-                  {technologies.split(' ')
+                  {technologies.split(', ')
                     .map((tech) => {
                       return (<span className="badge bg-secondary me-1">{tech}</span>)
                   })}
