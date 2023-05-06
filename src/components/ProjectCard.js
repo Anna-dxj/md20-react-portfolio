@@ -3,7 +3,7 @@ import {Github, BoxArrowUpRight} from 'react-bootstrap-icons'
 
 export default function ProjectCard({deployedLink, imgSrc, imgAlt, name, repoLink, description, technologies}){
     return (
-        <div className="card row d-flex flex-row justify-content-center align-items-start m-2 p-1">
+        <div className="card row d-flex flex-row justify-content-center align-items-start m-2 p-1 shadow col-sm-12 col-md-5">
           <img 
             src={imgSrc} 
             alt={`Screenshot of ${imgAlt}`}
@@ -11,13 +11,13 @@ export default function ProjectCard({deployedLink, imgSrc, imgAlt, name, repoLin
           />
             <div className="card-body col-md-6">
               <div className="d-flex flex-row justify-content-between">
-                <h3 clsasName="card-title col-md-8">{name}</h3>
-                <div className="d-flex flex-row justify-content-evenly col-md-4">
+                <h3 clsasName="card-title col-md-5">{name}</h3>
+                <div className="col-md-6 d-flex flex-row">
                   <a href={deployedLink}>
-                    <BoxArrowUpRight width="20" height="20" />
+                    <BoxArrowUpRight width="20" height="20" className="m-2" />
                   </a>
                   <a href={repoLink}>
-                    <Github width="25" height="25"/>
+                    <Github width="25" height="25" className="m-2"/>
                   </a>
                 </div>
               </div>

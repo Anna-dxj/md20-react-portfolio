@@ -11,7 +11,7 @@ export default function Portfolio() {
   return (
     <div className="container">
       <h1>Protfolio</h1>
-        <div className="row d-flex flex-row justify-content-center align-items-start p-1">
+        <div className="row d-flex flex-row container justify-content-around">
           <h2 className="card-title">Full-Stack Applications</h2>
           <ProjectCard 
             deployedLink="https://whispering-retreat-56820.herokuapp.com/login"
@@ -32,21 +32,10 @@ export default function Portfolio() {
             technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, JavaScript, CSS"
           /> 
         </div>
-      {/* <div className="row d-flex flex-row justify-content-center align-items-start">
+      {/* <div className="row d-flex flex-row container justify-content-around"">
         <h2>Backend Applications</h2>
       </div> */}
-      <div className="row d-flex flex-row justify-content-center align-items-start">
-        <h2>Gists</h2>
-        <ProjectCard 
-          deployedLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
-          imgSrc={regexTutScreenshot}
-          imgAlt="first few lines of tutorial"
-          name="RegEx Gist"
-          repoLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
-          description="The RegEx Gist analyzes Regular Expressions and what each part of one means, using a hexidecimal RegEx as its main example. The RegEx Gist is a tutorial produced and resarched by me during the UCLA full-stack coding bootcamp."
-        />
-      </div>
-      <div className="row d-flex flex-row justify-content-center align-items-start">
+      <div className="row d-flex flex-row container justify-content-around">
         <h2>Frontend Applications</h2>
         <ProjectCard 
           deployedLink="https://mynamebrogrammer.github.io/SimpliGame/"
@@ -74,6 +63,17 @@ export default function Portfolio() {
           repoLink="https://github.com/Anna-dxj/md4-quiz-game"
           description="The JavaScript Coding Quiz Challenge is another one of my early, simple front-end application that quizes a user on the basics of JavaScript. It is a timed quiz and penalizes a user for incorrect answer by deducting a certain amount of time from their remaining time. Upon completion, a user is able to save their score and see how their score compares to others. The JavaScript Coding Quiz Challenge is a simple front-end application fully produced by me during the UCLA full-stack coding bootcamp."
           technologies="HTML, CSS, JavaScript"
+        />
+      </div>
+      <div className="row d-flex flex-row container justify-content-around">
+        <h2>Gists</h2>
+        <ProjectCard 
+          deployedLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
+          imgSrc={regexTutScreenshot}
+          imgAlt="first few lines of tutorial"
+          name="RegEx Gist"
+          repoLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
+          description="The RegEx Gist analyzes Regular Expressions and what each part of one means, using a hexidecimal RegEx as its main example. The RegEx Gist is a tutorial produced and resarched by me during the UCLA full-stack coding bootcamp."
         />
       </div>
     </div>

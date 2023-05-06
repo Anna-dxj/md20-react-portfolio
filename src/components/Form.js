@@ -11,12 +11,12 @@ function Form () {
     const handleInputChange = (e) => {
         const {name: inputType, value: inputValue} = e.target;
 
-        if (type === 'name') {
-            setName(value)
-        } else if (type === 'email') {
-            setEmail(value)
+        if (inputType === 'name') {
+            setName(inputValue)
+        } else if (inputType === 'email') {
+            setEmail(inputValue)
         } else {
-            setMessage(value)
+            setMessage(inputValue)
         }
     };
 
@@ -32,11 +32,11 @@ function Form () {
 
         setName('');
         setEmail('');
-        setPassword('');
+        setMessage('');
     }
 
     return (
-        <form className="card">
+        <form className="card shadow">
             <div className="card-body">
                 <div>
                     <label className="form-label" for="name">Name</label>
