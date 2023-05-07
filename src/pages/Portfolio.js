@@ -1,4 +1,5 @@
 import React from 'react';
+import '../styles/Portfolio.css'
 import ProjectCard from '../components/ProjectCard'
 import answerHubScreenshot from '../assets/screenshots/answerhub-screenshot.png'
 import techBlogScreenshot from '../assets/screenshots/tech-blog-screenshot.png'
@@ -9,10 +10,10 @@ import quizGameScreenshot from '../assets/screenshots/quiz-game-screenshot.png'
 
 export default function Portfolio() {
   return (
-    <div className="container">
-      <h1>Protfolio</h1>
-        <div className="row d-flex flex-row container justify-content-around">
-          <h2 className="card-title">Full-Stack Applications</h2>
+    <div className="container my-3">
+      <h1 className="custom-txt">Portfolio</h1>
+        <div className="row d-flex flex-row container justify-content-around py-3">
+          <h2 className="card-title p-2 custom-txt">Full-Stack Applications</h2>
           <ProjectCard 
             deployedLink="https://whispering-retreat-56820.herokuapp.com/login"
             imgSrc={answerHubScreenshot}
@@ -36,7 +37,7 @@ export default function Portfolio() {
         <h2>Backend Applications</h2>
       </div> */}
       <div className="row d-flex flex-row container justify-content-around">
-        <h2>Frontend Applications</h2>
+        <h2 className="custom-txt">Frontend Applications</h2>
         <ProjectCard 
           deployedLink="https://mynamebrogrammer.github.io/SimpliGame/"
           imgSrc={simpligameScreenshot}
@@ -66,7 +67,7 @@ export default function Portfolio() {
         />
       </div>
       <div className="row d-flex flex-row container justify-content-around">
-        <h2>Gists</h2>
+        <h2 className="custom-txt">Gists</h2>
         <ProjectCard 
           deployedLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
           imgSrc={regexTutScreenshot}

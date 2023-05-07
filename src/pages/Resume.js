@@ -1,22 +1,22 @@
 import React from 'react';
+import '../styles/Resume.css'
 import {Download} from 'react-bootstrap-icons'
-
 import ResumeCard from '../components/ResumeCard'
 
 export default function Home() {
   return (
-    <div className="container">
-      <h1>Resume 
+    <div className="container my-3">
+      <h1 className="custom-txts">Resume 
         <a 
           href={`${process.env.PUBLIC_URL}/resume-langford.pdf`} 
-          className="btn"
+          className="custom-download"
           download
         >
           <Download />
         </a> 
       </h1>
       <div className="row d-flex flex-row justify-content-center">
-        <div className="card container py-2 my-2 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
           <h2 className="card-title">Education</h2>
           <div className="card-body align-items-center d-flex flex-column justify-content-around">
             <ResumeCard 
@@ -36,7 +36,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="card container py-2 my-2 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
           <h2 className="card-title">Leadership and Involvement</h2>
           <div className="card-body align-items-center d-flex flex-column justify-content-around">
             <ResumeCard 
@@ -53,7 +53,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="card container py-2 my-2 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
           <h2 className="card-title">Experience</h2>
           <div className="card-body align-items-center d-flex flex-column justify-content-around">
             <ResumeCard 

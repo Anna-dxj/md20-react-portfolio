@@ -1,0 +1,33 @@
+:root {
+    --jet: #333232;
+    --rusty-red: #d62246;
+    --cherry-blossom-pink: #ffa8ba;    
+    --rose-quartz: #a09cb0;
+    --cream: #f0f0c9;
+    --white: #fff;
+    --gray: #ffffff9f;
+}
+
+.custom-background {
+    background-color: var(--jet);
+}
+
+.custom-txt {
+    color: var(--white);
+}
+
+.custom-card-background {
+    background-color: var(--cherry-blossom-pink);
+    border-radius: 10px;
+}
+
+.custom-card {
+    background-color:var(--white);
+    border-radius: 10px;
+    box-shadow: 3px 6px 27px 0px #00000091;
+}
+
+.custom-card-img {
+    border-radius: 10px;
+    box-shadow: 3px 6px 27px 0px #00000091;
+}

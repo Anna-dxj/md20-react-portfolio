@@ -2,9 +2,9 @@ import React from 'react'
 
 export default function ResumeCard({title, location, time, ach, gpa, technologies, description}){
     return (
-        <div className="card my-2 shadow col-sm-12">
-            <h3 className="card-title card-header">{title}</h3>
-            <div className="card-body">
+        <div className="custom-card my-2 col-sm-12">
+            <h3 className="card-title custom-card-header">{title}</h3>
+            <div className="py-2 px-3">
               {(ach) ? (
                   <p className="card-text">{ach}</p>
               ) : ('')}

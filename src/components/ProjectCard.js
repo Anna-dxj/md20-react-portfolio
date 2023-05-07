@@ -2,35 +2,37 @@ import React from 'react';
 import {Github, BoxArrowUpRight} from 'react-bootstrap-icons'
 
 export default function ProjectCard({deployedLink, imgSrc, imgAlt, name, repoLink, description, technologies}){
-    return (
-        <div className="card row d-flex flex-row justify-content-center align-items-start m-2 p-1 shadow col-sm-12 col-md-5">
-          <img 
-            src={imgSrc} 
-            alt={`Screenshot of ${imgAlt}`}
-            className="card-img-top col-md-6 pt-4"
-          />
-            <div className="card-body col-md-6">
-              <div className="d-flex flex-row justify-content-between">
-                <h3 clsasName="card-title col-md-5">{name}</h3>
-                <div className="col-md-6 d-flex flex-row">
-                  <a href={deployedLink}>
-                    <BoxArrowUpRight width="20" height="20" className="m-2" />
-                  </a>
-                  <a href={repoLink}>
-                    <Github width="25" height="25" className="m-2"/>
-                  </a>
-                </div>
-              </div>
-              <p className="card-text">{description}</p>
-              {technologies ? (
-                <p className="card-text">
-                  {technologies.split(', ')
-                    .map((tech) => {
-                      return (<span className="badge bg-secondary me-1">{tech}</span>)
-                  })}
-                </p>
-              ) : ('')}
+  return (
+    <div className="row d-flex flex-row justify-content-center align-items-center m-2 py-3 px-4 col-sm-12 col-md-5 custom-card-background">
+      <div className="d-flex flex-column justify-content-center custom-card px-2 py-3">
+        <img 
+          src={imgSrc} 
+          alt={`Screenshot of ${imgAlt}`}
+          className="card-img-top col-md-6 pt-4 px-2"
+        />
+        <div className="card-body col-md-12 py-2 px-3">
+          <div className="d-flex flex-row justify-content-between">
+            <h3 className="d-flex align-self-center custom-title col-md-8 m-1 py-2">{name}</h3>
+            <div className="col-md-3 d-flex flex-row flex-row justify-content-end align-items-center">
+              <a href={deployedLink} className="custom-link">
+                <BoxArrowUpRight width="20" height="20" className="m-2" />
+              </a>
+              <a href={repoLink} className="custom-link">
+                <Github width="25" height="25" className="m-2"/>
+              </a>
             </div>
-          </div>  
-    )
+          </div>
+          <p className="card-text">{description}</p>
+            {technologies ? (
+              <p className="">
+                {technologies.split(', ')
+                  .map((tech) => {
+                    return (<span className="custom-badge px-1 me-1">{tech}</span>)
+                })}
+              </p>
+            ) : ('')}
+        </div>
+      </div>
+    </div>  
+  )
 }

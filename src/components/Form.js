@@ -36,31 +36,33 @@ function Form () {
     }
 
     return (
-        <form className="card shadow">
+        <form className="custom-form-card px-3 py-2">
             <div className="card-body">
-                <div>
-                    <label className="form-label" for="name">Name</label>
-                    <input 
-                        type="text" 
-                        className="form-control" 
-                        name="name" 
-                        placeholder="Name" 
-                        value={name}
-                        onChange={handleInputChange}
-                    />
+                <div className="row pt-3 pb-1">
+                    <div className="col-md-6">
+                        <label className="form-label" for="name">Name</label>
+                        <input 
+                            type="text" 
+                            className="form-control" 
+                            name="name" 
+                            placeholder="Name" 
+                            value={name}
+                            onChange={handleInputChange}
+                        />
+                    </div>
+                    <div className="col-md-6">
+                        <label className="form-label" for="email">Email</label>
+                        <input 
+                            type="email"
+                            className="form-control"
+                            name="email"
+                            placeholder="email@example.com"
+                            value={email}
+                            onChange={handleInputChange}
+                        />
+                    </div>
                 </div>
-                <div>
-                    <label className="form-label" for="email">Email</label>
-                    <input 
-                        type="email"
-                        className="form-control"
-                        name="email"
-                        placeholder="email@example.com"
-                        value={email}
-                        onChange={handleInputChange}
-                    />
-                </div>
-                <div>
+                <div className="pb-3 pt-1">
                     <label className="form-label" for="message">Message</label>
                     <textarea 
                         className="form-control"
@@ -71,7 +73,7 @@ function Form () {
                     >
                     </textarea>
                 </div>
-                <button type="button" className="btn" onClick={handleFormSubmit}>Submit</button>
+                <button type="button" className="custom-submit-btn my-3" onClick={handleFormSubmit}>Submit</button>
                 {errorMessage && (
                     <div>
                         <p className="error-text">{errorMessage}</p>

@@ -1,11 +1,12 @@
 import React from 'react';
+import '../styles/Navbar.css'
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary custom-nav">
       <div className="container-fluid">
-        <h1 className="navbar-brand">Anna Langford</h1>
-        <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <h1 className="custom-page-title pe-2">Anna Langford</h1>
+        <button className="navbar-toggler custom-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
@@ -14,7 +15,7 @@ function Navbar({ currentPage, handlePageChange }) {
               <a
                 href="#about"
                 onClick={() => handlePageChange('About')}
-                className={currentPage === 'About' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'About' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
                 About
               </a>
@@ -23,7 +24,7 @@ function Navbar({ currentPage, handlePageChange }) {
               <a
                 href="#portfolio"
                 onClick={() => handlePageChange('Portfolio')}
-                className={currentPage === 'Portolio' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Portfolio' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
                 Portolio
               </a>
@@ -32,7 +33,7 @@ function Navbar({ currentPage, handlePageChange }) {
               <a
                 href="#resume"
                 onClick={() => handlePageChange('Resume')}
-                className={currentPage === 'Resume' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Resume' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
                 Resume
               </a>
@@ -41,7 +42,7 @@ function Navbar({ currentPage, handlePageChange }) {
               <a
                 href="#contact"
                 onClick={() => handlePageChange('Contact')}
-                className={currentPage === 'Contact' ? 'nav-link active' : 'nav-link'}
+                className={currentPage === 'Contact' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
                 Contact
               </a>
