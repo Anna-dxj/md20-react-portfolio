@@ -50,6 +50,7 @@
 
 .custom-badge {
     display: inline-block;
+    color: var(--white);
     background-color: var(--rose-quartz);
     text-align: center;
     white-space: nowrap;
