@@ -2,7 +2,10 @@
 
 ## Description
 
-This [webpage]() is a professional portfolio for possible employers to look at my experience and previous work. This webpage features an "About Me" section, which provides a brief description of myself as well as a recent photo, a "Portfolio" section which includes my a screenshot, deployed link, repo link, and a brief description of my prevoius projects, a "Resume" section which includes my resume and a downloadable version of it, and finally a "Contact" section, which allows an employer to fill out and contact me. 
+This [webpage](https://github.com/Anna-dxj/react-portfolio) is a professional portfolio for possible employers to look at my experience and previous work. This webpage features an "About Me" section, which provides a brief description of myself as well as a recent photo, a "Portfolio" section which includes my a screenshot, deployed link, repo link, and a brief description of my prevoius projects, a "Resume" section which includes my resume and a downloadable version of it, and finally a "Contact" section, which allows an employer to fill out and contact me. This webpage features a responsive navbar to direct to each section of the webpage and a footer to redirect to my profile links for GitHub, LinkedIn, and Facebook.
+
+On directing themselves to the webpage, potential employers should be routed to the "About Me" section: 
+![screenshot-aboutme](./src/assets/screenshots/portfolio-screenshot.png)
   
 Through development of this application, I have gained more comfort using React. This webpage, besides relying on react, also relies on Bootstrap for some icons and to easily handle responsive design and formatting.
 
@@ -18,7 +21,7 @@ Through development of this application, I have gained more comfort using React.
 
 ## Installation
 
-For commercial use, there are no installation instructions, just redirect to [this link](). 
+For commercial use, there are no installation instructions, just redirect to [this link](https://github.com/Anna-dxj/react-portfolio). 
 
 For developmental use, one must install dependencies and then start the react server. Please mind the `package.json` to see what other dependencies were used during this project as well as scripts to aid in development. 
 
