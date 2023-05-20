@@ -7,13 +7,13 @@ export default function About() {
     <div className="container my-3 custom-background">
       <h1 className="custom-txt">About Me</h1>
       <div className="container">
-        <div className="row d-flex flex-row justify-content-center align-items-start">
-          <div className="card p-1 m-1 col-sm-12 col-md-5 shadow">
-            <div className="card-body">
+        <div className="row d-flex flex-row justify-content-center">
+          <div className="custom-card p-1 m-1 col-sm-12 col-md-5 d-flex flex-row justify-content-center align-items-center">
+            <div className="img-container">
               <img 
                 src={photoMe} 
                 alt="Photo of me" 
-                className="custom-card-img card-img"
+                className="custom-card-img"
               />
             </div>
           </div>
