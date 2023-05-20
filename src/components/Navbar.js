@@ -3,9 +3,9 @@ import '../styles/Navbar.css'
 
 function Navbar({ currentPage, handlePageChange }) {
   return (
-    <nav className="navbar navbar-expand-lg bg-body-tertiary custom-nav">
+    <nav className="navbar navbar-expand-lg bg-body-tertiary custom-nav sticky-top">
       <div className="container-fluid">
-        <h1 className="custom-page-title pe-2">Anna Langford</h1>
+        <h1 className="custom-page-title px-2 pt-1">Anna Langford</h1>
         <button className="navbar-toggler custom-btn" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span className="navbar-toggler-icon"></span>
         </button>
@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Portfolio')}
                 className={currentPage === 'Portfolio' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
-                Portolio
+                Portfolio
               </a>
             </li>
             <li className="nav-item">

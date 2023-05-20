@@ -15,11 +15,12 @@
 .custom-title {
     font-size: 1.2rem; 
     color: var(--jet);
+    transition: color 0.7s ease-in-out;
 }
 
 .custom-card-background:hover .custom-title {
     color: var(--rusty-red);
-    transition: color 0.7s ease-in-out
+    transition: color 0.7s ease-in-out;
 
 }
 

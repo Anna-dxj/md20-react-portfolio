@@ -5,7 +5,7 @@ import ResumeCard from '../components/ResumeCard'
 
 export default function Home() {
   return (
-    <div className="container my-3">
+    <div className="container my-3 ">
       <h1 className="custom-txts">Resume 
         <a 
           href={`${process.env.PUBLIC_URL}/resume-langford.pdf`} 
