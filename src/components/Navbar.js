@@ -26,7 +26,7 @@ function Navbar({ currentPage, handlePageChange }) {
                 onClick={() => handlePageChange('Portfolio')}
                 className={currentPage === 'Portfolio' ? 'custom-nav-link custom-nav-link-active p-2 m-1' : 'custom-nav-link p-2 m-1'}
               >
-                Portolio
+                Portfolio
               </a>
             </li>
             <li className="nav-item">
