@@ -14,10 +14,10 @@ export default function ProjectCard({deployedLink, imgSrc, imgAlt, name, repoLin
           <div className="d-flex flex-row justify-content-between">
             <h3 className="d-flex align-self-center custom-title col-md-8 m-1 py-2">{name}</h3>
             <div className="col-md-3 d-flex flex-row flex-row justify-content-end align-items-center">
-              <a href={deployedLink} className="custom-link">
+              <a href={deployedLink} target="_blank" className="custom-link">
                 <BoxArrowUpRight width="20" height="20" className="m-2" />
               </a>
-              <a href={repoLink} className="custom-link">
+              <a href={repoLink} target="_blank"className="custom-link">
                 <Github width="25" height="25" className="m-2"/>
               </a>
             </div>
