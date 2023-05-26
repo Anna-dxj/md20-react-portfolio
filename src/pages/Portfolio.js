@@ -1,12 +1,14 @@
 import React from 'react';
 import '../styles/Portfolio.css'
 import ProjectCard from '../components/ProjectCard'
+
 import answerHubScreenshot from '../assets/screenshots/answerhub-screenshot.png'
 import techBlogScreenshot from '../assets/screenshots/tech-blog-screenshot.png'
 import simpligameScreenshot from '../assets/screenshots/simpligame-screenshot.png'
 import passwordGenScreenshot from '../assets/screenshots/password-generator-screenshot.png'
 import regexTutScreenshot from '../assets/screenshots/regex-gist-screenshot.png'
 import quizGameScreenshot from '../assets/screenshots/quiz-game-screenshot.png'
+import lingoAiScreenshot from '../assets/screenshots/lingoai-screenshot.png'
 
 export default function Portfolio() {
   return (
@@ -15,12 +17,21 @@ export default function Portfolio() {
         <div className="row d-flex flex-row container justify-content-around py-3">
           <h2 className="card-title p-2 custom-txt">Full-Stack Applications</h2>
           <ProjectCard 
+            deployedLink="https://damp-castle-79299.herokuapp.com"
+            imgSrc={lingoAiScreenshot}
+            imgAlt="LingoAI's homepage"
+            name="LingoAI"
+            repoLink="https://github.com/AmirTahsini/project_atlas"
+            description="LingoAI is a language application aimed at non-native speakers of Spansh. Through creating an account, a user is able to either play a word chain game to expand and test the depth of their vocabulary or practice conversational skills against an AI. LingoAI is the final product of a small group project, where I aided on the backend models and mostly focused on the front-end Game and Conversation elements."
+            technologies="GraphQL, Mongoose & MongoDB, AntDesign, React, Express & Node, OpenAI, NLP Translation API, Express & Node, JavaScript, CSS"
+          />
+          <ProjectCard 
             deployedLink="https://whispering-retreat-56820.herokuapp.com/login"
             imgSrc={answerHubScreenshot}
             imgAlt="Answerhub's login page"
             name="AnswerHub"
             repoLink="https://github.com/Michaelx626/AnswerHub"
-            description="AnswerHub is a fullstack social media platform for developers. Through creating an account, a developer would be able to consult an AI for coding or math-related questions and connect with other developers to collaborate on projects or network. AnswerHub is also the product of asmall group project, where I worked on the making the design responsive and improving the UI/UX as well as working on the models."
+            description="AnswerHub is a fullstack social media platform for developers. Through creating an account, a developer would be able to consult an AI for coding or math-related questions and connect with other developers to collaborate on projects or network. AnswerHub is also the product of a small group project, where I worked on the making the design responsive and improving the UI/UX as well as working on the models."
             technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, Daturi, Cloudinary, Multer, OpenAI, JavaScript, CSS"
           />
           <ProjectCard 

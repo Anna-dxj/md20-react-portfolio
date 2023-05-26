@@ -22,14 +22,14 @@ export default function Home() {
             <ResumeCard 
               title="Rice University"
               location="Houston, Texas"
-              time="graduation in May 2022"
+              time="Auguest 2018 - May 2022"
               ach="Bachelor of Arts in Linguistics"
               gpa="3.61"
             />
             <ResumeCard 
               title="UCLA Extension Full-Stack Coding Bootcamp"
               location="Virtual"
-              time="expected completion in May 2023"
+              time="November 2022 - May 2023"
               ach="Certificate"
               technologies="HTML; CSS and responsive design; CSS Libraries (Bootstrap, Materialize.css); JavaScript and jQuery; React; RESTful APIs and GraphQL; Node; Express; MySQL and Sequelize; MongoDB and Mongoose; Studied and learned modern front-end and backend proficiencies:"
 
