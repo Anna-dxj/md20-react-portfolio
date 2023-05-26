@@ -1,8 +1,9 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.8c7cc331.css",
-    "main.js": "/react-portfolio/static/js/main.835e7bb7.js",
+    "main.js": "/react-portfolio/static/js/main.545b2dc9.js",
     "static/media/photo-me.jpeg": "/react-portfolio/static/media/photo-me.723e5a8e0a4607e2a1a5.jpeg",
+    "static/media/lingoai-screenshot.png": "/react-portfolio/static/media/lingoai-screenshot.ec4d9e105d3e1b40ee11.png",
     "static/media/regex-gist-screenshot.png": "/react-portfolio/static/media/regex-gist-screenshot.b33e88a64c32e9340536.png",
     "static/media/simpligame-screenshot.png": "/react-portfolio/static/media/simpligame-screenshot.50e50eb70b2b7b344cd8.png",
     "static/media/tech-blog-screenshot.png": "/react-portfolio/static/media/tech-blog-screenshot.2151c008d89a5eb5d55c.png",
@@ -11,10 +12,10 @@
     "static/media/quiz-game-screenshot.png": "/react-portfolio/static/media/quiz-game-screenshot.3063a7baef54503a3a27.png",
     "index.html": "/react-portfolio/index.html",
     "main.8c7cc331.css.map": "/react-portfolio/static/css/main.8c7cc331.css.map",
-    "main.835e7bb7.js.map": "/react-portfolio/static/js/main.835e7bb7.js.map"
+    "main.545b2dc9.js.map": "/react-portfolio/static/js/main.545b2dc9.js.map"
   },
   "entrypoints": [
     "static/css/main.8c7cc331.css",
-    "static/js/main.835e7bb7.js"
+    "static/js/main.545b2dc9.js"
   ]
 }
