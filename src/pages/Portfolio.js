@@ -9,6 +9,12 @@ import passwordGenScreenshot from '../assets/screenshots/password-generator-scre
 import regexTutScreenshot from '../assets/screenshots/regex-gist-screenshot.png'
 import quizGameScreenshot from '../assets/screenshots/quiz-game-screenshot.png'
 import lingoAiScreenshot from '../assets/screenshots/lingoai-screenshot.png'
+import weatherDashScreenshot from '../assets/screenshots/weather-dash-screenshot.png'
+import ecommerceScreenshot from '../assets/screenshots/ecommerce-backend-screenshot.png'
+import employeeTrackScreenshot from '../assets/screenshots/employee-track-screenshot.png'
+import noteTakerScreenshot from '../assets/screenshots/note-taker-screenshot.png'
+import readmeGenScreenshot from '../assets/screenshots/readme-generator-screenshot.png'
+import teamProfileScreenshot from '../assets/screenshots/team-profile-screenshot.png'
 
 export default function Portfolio() {
   return (
@@ -22,7 +28,7 @@ export default function Portfolio() {
             imgAlt="LingoAI's homepage"
             name="LingoAI"
             repoLink="https://github.com/AmirTahsini/project_atlas"
-            description="LingoAI is a language application aimed at non-native speakers of Spansh. Through creating an account, a user is able to either play a word chain game to expand and test the depth of their vocabulary or practice conversational skills against an AI. LingoAI is the final product of a small group project, where I aided on the backend models and mostly focused on the front-end Game and Conversation elements."
+            description="LingoAI is a language application aimed at non-native speakers of Spansh. Through creating an account, a user is able to either play a word chain game to expand and test the depth of their vocabulary or practice conversational skills against an AI. LingoAI is the final product of a small group project created in a 13 day period. I aided on the backend models and server and mostly focused on the front-end Game and Conversation elements."
             technologies="GraphQL, Mongoose & MongoDB, AntDesign, React, Express & Node, OpenAI, NLP Translation API, Express & Node, JavaScript, CSS"
           />
           <ProjectCard 
@@ -44,9 +50,24 @@ export default function Portfolio() {
             technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, JavaScript, CSS"
           /> 
         </div>
-      {/* <div className="row d-flex flex-row container justify-content-around"">
-        <h2>Backend Applications</h2>
-      </div> */}
+      <div className="row d-flex flex-row container justify-content-around">
+        <h2 className="custom-txt">Backend Applications</h2>
+        <ProjectCard 
+          youtubeLink="https://youtu.be/CgVkRK_wPb8"
+          imgSrc={readmeGenScreenshot}
+          imgAlt="README Generator on command line"
+          name="Professional README Generator"
+          repoLink="https://github.com/Anna-dxj/md9-nodejs-challenge"
+          description="**ADD DESCRIPTION**"
+          technologies="Node, JavaScript, Inquirer"
+        />
+        <ProjectCard
+          youTubeLink="https://youtu.be/0TY_5bN7Oo8"
+          imgSrc={teamProfileScreenshot}
+          imgAlt="Team Profile Generator on command line"
+          name="Team Profile Generator"
+        />
+      </div>
       <div className="row d-flex flex-row container justify-content-around">
         <h2 className="custom-txt">Frontend Applications</h2>
         <ProjectCard 
@@ -55,8 +76,17 @@ export default function Portfolio() {
           imgAlt="SimpliGame's home page"
           name="SimpliGame"
           repoLink="https://github.com/mynamebrogrammer/SimpliGame"
-          description="SimpliGame is a basic front-end web application that strives to provide users with a streamlined video game research experience. By reducing irrelevant information, users are able to mak their decision and more quickly and with confidence. Simpligame is aimed at everyone from someone with a passing interest in gaming to hardcore gamers. SimpliGame is the product of a small group project, where I worked on the HTML and CSS design and layout as well as some of the JavaScript logic."
           technologies="GiantBomb API & Weather API, Materialize.css, jQuery, HTML, CSS, JavaScript"
+          description="SimpliGame is a basic front-end web application that strives to provide users with a streamlined video game research experience. By reducing irrelevant information, users are able to mak their decision and more quickly and with confidence. Simpligame is aimed at everyone from someone with a passing interest in gaming to hardcore gamers. SimpliGame is the first product of a small team of two and was created in 13 days. I worked on the HTML and CSS design and layout as well as some of the JavaScript logic."
+        />
+        <ProjectCard 
+          deployedLink="https://anna-dxj.github.io/md6-weather-dash/"
+          imgSrc={weatherDashScreenshot}
+          imgAlt="Weather Dashboard's Forecast page"
+          name="Weather Dashboard"
+          repoLink="https://github.com/Anna-dxj/md6-weather-dash"
+          description="**ADD DESCRIPTION!!!**"
+          technologies="OpenWeather API, Bootstrap, Dayjs, HTML, CSS, JavaScript"
         />
         <ProjectCard 
           deployedLink="https://anna-dxj.github.io/md3-friendly-parakeet/"
@@ -84,7 +114,6 @@ export default function Portfolio() {
           imgSrc={regexTutScreenshot}
           imgAlt="first few lines of tutorial"
           name="RegEx Gist"
-          repoLink="https://gist.github.com/Anna-dxj/c6f168dd24635e1fd09ffff81526a4a3"
           description="The RegEx Gist analyzes Regular Expressions and what each part of one means, using a hexidecimal RegEx as its main example. The RegEx Gist is a tutorial produced and resarched by me during the UCLA full-stack coding bootcamp."
         />
       </div>
