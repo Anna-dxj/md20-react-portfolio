@@ -25,7 +25,7 @@ export default function Portfolio() {
         <div className="row d-flex flex-row container justify-content-around py-3">
           <h2 className="card-title p-2 custom-txt">Full-Stack Applications</h2>
           <ProjectCard 
-            deployedLink="https://damp-castle-79299.herokuapp.com"
+            deployedLink="https://lingoai.herokuapp.com/"
             imgSrc={lingoAiScreenshot}
             imgAlt="LingoAI's homepage"
             name="LingoAI"
