@@ -24,8 +24,8 @@ export default function About() {
                 Hello, I'm Anna Langford, and I'm a junior full-stack software engineer, specializing in JavaScript.
                 Before pursuing a career in tech, I graduated with a degree in Linguistics from Rice University in Houston, Texas.
                 I have experience in academic tutoring and consulting, which has sharpened my communication and problem-solving skills.
-                Soon, I will be a recent graduate of the UCLA full-stack coding boot camp, where I have learned many modern technologies such as the MERN stack.
-                During the coding boot amp, I had the opportunity to work on small teams to create full-stack applications, including a full-stack social media-based application aimed at developers, which features an AI chatbot, similar to ChatGPT.
+                Soon, I will be a recent graduate of the UCLA full-stack coding boot camp, where I have learned many modern technologies such as the MERN-G stack.
+                During the coding boot camp, I had the opportunity to work on small teams to create full-stack applications, including a full-stack social media-based application aimed at developers, which features an AI chatbot, similar to ChatGPT.
                 Working in these team environments has allowed me to sharpen my teamwork skills and learn how to communicate more effectively with others to deliver and take pride in high-quality products as a group within short periods of time.
                 My Linguistics background has equipped me with meticulous critical and analytical thinking skills that I apply to my work as a software engineer.
                 In my spare time, I enjoy an active lifestyle with my two dogs or at my recreational dance studio.
