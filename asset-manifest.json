@@ -1,21 +1,29 @@
 {
   "files": {
-    "main.css": "/react-portfolio/static/css/main.8c7cc331.css",
-    "main.js": "/react-portfolio/static/js/main.545b2dc9.js",
+    "main.css": "/react-portfolio/static/css/main.10b4edb5.css",
+    "main.js": "/react-portfolio/static/js/main.ef1659ec.js",
+    "static/media/book-search-screenshot.png": "/react-portfolio/static/media/book-search-screenshot.f1eac763bdc48c7ced54.png",
     "static/media/photo-me.jpeg": "/react-portfolio/static/media/photo-me.723e5a8e0a4607e2a1a5.jpeg",
-    "static/media/lingoai-screenshot.png": "/react-portfolio/static/media/lingoai-screenshot.ec4d9e105d3e1b40ee11.png",
-    "static/media/regex-gist-screenshot.png": "/react-portfolio/static/media/regex-gist-screenshot.b33e88a64c32e9340536.png",
+    "static/media/weather-dash-screenshot.png": "/react-portfolio/static/media/weather-dash-screenshot.743d78078e80ee74eb29.png",
+    "static/media/regex-gist-screenshot.png": "/react-portfolio/static/media/regex-gist-screenshot.f0c86873f0f09df2ce6e.png",
+    "static/media/employee-track-screenshot.png": "/react-portfolio/static/media/employee-track-screenshot.f376d78bb3fbf671537b.png",
     "static/media/simpligame-screenshot.png": "/react-portfolio/static/media/simpligame-screenshot.50e50eb70b2b7b344cd8.png",
+    "static/media/answerhub-screenshot.png": "/react-portfolio/static/media/answerhub-screenshot.02fcbf2b12950810e311.png",
+    "static/media/ecommerce-backend-screenshot.png": "/react-portfolio/static/media/ecommerce-backend-screenshot.ee7534bc9b439b2959d7.png",
+    "static/media/lingoai-screenshot.png": "/react-portfolio/static/media/lingoai-screenshot.ad0a30f7c79445896955.png",
     "static/media/tech-blog-screenshot.png": "/react-portfolio/static/media/tech-blog-screenshot.2151c008d89a5eb5d55c.png",
     "static/media/password-generator-screenshot.png": "/react-portfolio/static/media/password-generator-screenshot.fe233e81b4cc4e81b675.png",
-    "static/media/answerhub-screenshot.png": "/react-portfolio/static/media/answerhub-screenshot.ee71e0c81fbede2fcf6e.png",
-    "static/media/quiz-game-screenshot.png": "/react-portfolio/static/media/quiz-game-screenshot.3063a7baef54503a3a27.png",
+    "static/media/team-profile-screenshot.png": "/react-portfolio/static/media/team-profile-screenshot.1dc2b7891faf1619515b.png",
+    "static/media/quiz-game-screenshot.png": "/react-portfolio/static/media/quiz-game-screenshot.ed9a85290c5f1dabf621.png",
+    "static/media/readme-generator-screenshot.png": "/react-portfolio/static/media/readme-generator-screenshot.d5947374120901994e3e.png",
+    "static/media/note-taker-screenshot.png": "/react-portfolio/static/media/note-taker-screenshot.34500382333755793581.png",
+    "static/media/jate-screenshot.png": "/react-portfolio/static/media/jate-screenshot.9009613e4b62d24b19b2.png",
     "index.html": "/react-portfolio/index.html",
-    "main.8c7cc331.css.map": "/react-portfolio/static/css/main.8c7cc331.css.map",
-    "main.545b2dc9.js.map": "/react-portfolio/static/js/main.545b2dc9.js.map"
+    "main.10b4edb5.css.map": "/react-portfolio/static/css/main.10b4edb5.css.map",
+    "main.ef1659ec.js.map": "/react-portfolio/static/js/main.ef1659ec.js.map"
   },
   "entrypoints": [
-    "static/css/main.8c7cc331.css",
-    "static/js/main.545b2dc9.js"
+    "static/css/main.10b4edb5.css",
+    "static/js/main.ef1659ec.js"
   ]
 }
