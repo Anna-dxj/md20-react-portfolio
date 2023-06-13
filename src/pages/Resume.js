@@ -61,14 +61,14 @@ export default function Home() {
               location="Houston, Texas"
               time="Fall 2020, Fall 2021" 
               ach="Teaching Assistant"
-              description="Composed the miterm and guidelines for final papers and other assignments with the professor for Language and Society. Graded assignments and coursework and provided feedback for Language and Society"
+              description="Composed the midterm and guidelines for final papers and other assignments with the professor for Language and Society. Graded assignments and coursework and provided feedback for Language and Society"
             />
             <ResumeCard 
               title="Self-Employed"
               location="Scottsdale, Arizona"
               time="Fall 2022 - ongoing"
               ach="Private Math Tutor"
-              description="Provided personalized assistance to students strugggling in Math, helping them develop study skills and re-explaining material as needed"
+              description="Provided personalized assistance to students struggling in Math, helping them develop study skills and re-explaining material as needed"
             />
           </div>
         </div>
