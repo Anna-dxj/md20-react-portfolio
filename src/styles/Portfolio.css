@@ -59,6 +59,18 @@
     color: var(--rose-quartz) !important
 }
 
+.tech-used {
+    margin: 0.2rem 0;
+    padding: 0.3rem 0;
+    border-top: solid 1px var(--rose-quartz);
+    font-weight: 600;
+    transition: all 0.7s ease-in-out;
+}
+
+.custom-card-background:hover .tech-used {
+    color: var(--rusty-red);
+}
+
 .custom-badge {
     display: inline-block;
     color: var(--white);

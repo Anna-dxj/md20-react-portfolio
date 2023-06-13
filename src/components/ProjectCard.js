@@ -1,7 +1,7 @@
 import React from 'react';
 import {Github, Youtube, BoxArrowUpRight} from 'react-bootstrap-icons'
 
-export default function ProjectCard({deployedLink, youtubeLink, imgSrc, imgAlt, name, repoLink, description, technologies}){
+export default function ProjectCard({deployedLink, youtubeLink, imgSrc, imgAlt, name, repoLink, description, paragraph2, technologies}){
   return (
     <div className="row d-flex flex-row justify-content-center align-items-center m-2 py-3 px-4 col-sm-12 col-md-5 custom-card-background">
       <div className="d-flex flex-column justify-content-center custom-card px-2 py-3">
@@ -35,14 +35,22 @@ export default function ProjectCard({deployedLink, youtubeLink, imgSrc, imgAlt, 
               )}
             </div>
           </div>
-          <p className="card-text">{description}</p>
+          {description && (
+            <p className="card-text">{description}</p>
+          )}
+          {paragraph2 && (
+            <p className="card-text">{paragraph2}</p>
+          )}
             {technologies ? (
-              <p className="">
-                {technologies.split(', ')
-                  .map((tech) => {
-                    return (<span className="custom-badge px-1 me-1">{tech}</span>)
-                })}
-              </p>
+              <div>
+                <p className="tech-used">Technologies:</p>
+                <p>
+                  {technologies.split(', ')
+                    .map((tech) => {
+                      return (<span className="custom-badge px-1 me-1">{tech}</span>)
+                  })}
+                </p>
+              </div>
             ) : ('')}
         </div>
       </div>
