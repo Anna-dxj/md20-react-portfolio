@@ -15,13 +15,19 @@
 .custom-title {
     font-size: 1.2rem; 
     color: var(--jet);
-    transition: color 0.7s ease-in-out;
+    font-weight: 700;
+    text-decoration: none;
+    transition: all 0.7s ease-in-out;
 }
 
 .custom-card-background:hover .custom-title {
     color: var(--rusty-red);
     transition: color 0.7s ease-in-out;
 
+}
+
+.custom-title:hover {
+    color: var(--rose-quartz) !important
 }
 
 .custom-card-background {
@@ -45,8 +51,24 @@
     transition: color 0.7s ease-in-out
 }
 
+.custom-card-background:hover .custom-link {
+    color: var(--rusty-red)
+}
+
 .custom-link:hover {
-    color: var(--rose-quartz);
+    color: var(--rose-quartz) !important
+}
+
+.tech-used {
+    margin: 0.2rem 0;
+    padding: 0.3rem 0;
+    border-top: solid 1px var(--rose-quartz);
+    font-weight: 600;
+    transition: all 0.7s ease-in-out;
+}
+
+.custom-card-background:hover .tech-used {
+    color: var(--rusty-red);
 }
 
 .custom-badge {
@@ -58,4 +80,10 @@
     font-weight: 600;
     border-radius: 6px;
     font-size: .75em; 
+    transition: all 0.7s ease-in-out;
+}
+
+.custom-card-background:hover .custom-badge {
+    background-color: var(--cherry-blossom-pink);
+    color: black;
 }
