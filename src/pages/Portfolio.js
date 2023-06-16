@@ -29,7 +29,7 @@ export default function Portfolio() {
             imgSrc={lingoAiScreenshot}
             imgAlt="LingoAI's homepage"
             name="LingoAI"
-            repoLink="https://github.com/AmirTahsini/project_atlas"
+            repoLink="https://github.com/Anna-dxj/lingoai"
             description="LingoAI is a language application aimed at non-native speakers of Spanish of any level of fluency. By creating an account, a user can engage in two core activities: playing the Word Chain game to expand and test the depth of their vocabulary, or practicing conversational skills with an AI. Developed within a 13-day period by a small group, our team utilized paired programming during the initial server and model setup and subsequently adhered to agile development principles, ensuring regular meetings and effective communication of progress, successes, and blockers."
             paragraph2="While I aided in the initial backend setup and the OpenAI configuration, my main responsibility lay in figuring out how to best use our UI library and spearheading the front-end game and conversation elements and logic. This project received an exceptional score of 100%. LingoAI was the capstone project for the UCLA bootcamp, and it is a project that I intend to continue to develop. Looking ahead, our plans for future development involve expanding LingoAI to include other languages, as well as incorporating additional word games tailored to accommodate different orthographies and lexicons."
             technologies="GraphQL, Mongoose & MongoDB, AntDesign, React, Express & Node, OpenAI, NLP Translation API, Express & Node, JavaScript, CSS"
