@@ -40,47 +40,49 @@ function Form () {
         <form className="custom-form-card px-3 py-2">
             <Warning />
             <div className="card-body">
-                <div className="row pt-3 pb-1">
-                    <div className="col-md-6">
-                        <label className="form-label" for="name">Name</label>
-                        <input 
-                            type="text" 
-                            className="form-control" 
-                            name="name" 
-                            placeholder="Name" 
-                            value={name}
+                <fieldset disabled>
+                    <div className="row pt-3 pb-1">
+                        <div className="col-md-6">
+                            <label className="form-label" for="name">Name</label>
+                            <input 
+                                type="text" 
+                                className="form-control custom-disabled" 
+                                name="name" 
+                                placeholder="Name" 
+                                value={name}
+                                onChange={handleInputChange}
+                            />
+                        </div>
+                        <div className="col-md-6">
+                            <label className="form-label" for="email">Email</label>
+                            <input 
+                                type="email"
+                                className="form-control custom-disabled"
+                                name="email"
+                                placeholder="email@example.com"
+                                value={email}
+                                onChange={handleInputChange}
+                            />
+                        </div>
+                    </div>
+                    <div className="pb-3 pt-1">
+                        <label className="form-label" for="message">Message</label>
+                        <textarea 
+                            className="form-control custom-disabled"
+                            name="message"
+                            placeholder="Your message here"
+                            value={message}
                             onChange={handleInputChange}
-                        />
+                        >
+                        </textarea>
                     </div>
-                    <div className="col-md-6">
-                        <label className="form-label" for="email">Email</label>
-                        <input 
-                            type="email"
-                            className="form-control"
-                            name="email"
-                            placeholder="email@example.com"
-                            value={email}
-                            onChange={handleInputChange}
-                        />
-                    </div>
-                </div>
-                <div className="pb-3 pt-1">
-                    <label className="form-label" for="message">Message</label>
-                    <textarea 
-                        className="form-control"
-                        name="message"
-                        placeholder="Your message here"
-                        value={message}
-                        onChange={handleInputChange}
-                    >
-                    </textarea>
-                </div>
-                <button type="button" className="custom-submit-btn my-3" onClick={handleFormSubmit}>Submit</button>
-                {errorMessage && (
-                    <div>
-                        <p className="error-text">{errorMessage}</p>
-                    </div>
-                )}
+                    <button type="button" className="custom-disabled-btn custom-disabled my-3" onClick={handleFormSubmit}>Submit</button>
+                    {errorMessage && (
+                        <div>
+                            <p className="error-text">{errorMessage}</p>
+                        </div>
+                    )}
+                </fieldset>
             </div>
         </form>
     )
