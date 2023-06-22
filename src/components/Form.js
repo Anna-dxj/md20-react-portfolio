@@ -1,5 +1,6 @@
 import React, {useState} from 'react';
 
+import Warning from './Warning'
 import {validateEmail} from '../utils/helpers'
 
 function Form () {
@@ -37,6 +38,7 @@ function Form () {
 
     return (
         <form className="custom-form-card px-3 py-2">
+            <Warning />
             <div className="card-body">
                 <div className="row pt-3 pb-1">
                     <div className="col-md-6">
