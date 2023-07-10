@@ -1,9 +1,23 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/Resume.css'
 import {Download} from 'react-bootstrap-icons'
 import ResumeCard from '../components/ResumeCard'
 
 export default function Home() {
+  useEffect(() => {
+    const handleHashChange = () => {
+      if (window.location.hash ==='#About') {
+        window.scrollTo(0,0)
+      }
+    }
+
+    window.addEventListener('hashChange', handleHashChange)
+
+    return () => {
+      window.removeEventListener('hashChange', handleHashChange)
+    }
+  }, [])
+  
   return (
     <div className="container my-3 ">
       <h1 className="custom-txts">Resume 

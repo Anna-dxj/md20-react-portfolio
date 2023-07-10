@@ -1,12 +1,6 @@
 import React from 'react'
 
 export default function ResumeCard({type, dates, school, location, description, ach, title, employer, org, skills}){
-    const splitSkills = (skills) => {
-        console.log(skills)
-        // const skillList = skills.split("; ")
-        // console.log(skillList)
-    }
-    splitSkills(skills)
     return (
         <div>
             {type === 'education' && (

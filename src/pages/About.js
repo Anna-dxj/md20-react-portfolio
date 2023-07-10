@@ -1,8 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import '../styles/About.css'
 import photoMe from '../assets/images/photo-me.jpeg'
 
 export default function About() {
+  useEffect(() => {
+    const handleHashChange = () => {
+      if (window.location.hash ==='#About') {
+        window.scrollTo(0,0)
+      }
+    }
+
+    window.addEventListener('hashChange', handleHashChange)
+
+    return () => {
+      window.removeEventListener('hashChange', handleHashChange)
+    }
+  }, [])
+
   return (
     <div className="container my-3 custom-background">
       <h1 className="custom-txt">About Me</h1>

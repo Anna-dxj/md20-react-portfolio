@@ -1,7 +1,8 @@
 :root {
     --jet: #333232;
     --rusty-red: #d62246;
-    --cherry-blossom-pink: #ffa8ba;    
+    --cherry-blossom-pink: #ffa8ba;  
+    --light-pink: #ffa8b992;
     --rose-quartz: #a09cb0;
     --cream: #f0f0c9;
     --white: #fff;
@@ -12,6 +13,10 @@
     color: var(--white);
 }
 
+.custom-txt-header {
+    color: var(--jet);
+}
+
 .custom-title {
     font-size: 1.2rem; 
     color: var(--jet);
@@ -20,7 +25,7 @@
     transition: all 0.7s ease-in-out;
 }
 
-.custom-card-background:hover .custom-title {
+.custom-card:hover .custom-title {
     color: var(--rusty-red);
     transition: color 0.7s ease-in-out;
 
@@ -42,7 +47,7 @@
     transition: box-shadow 0.7s ease-in-out
 }
 
-.custom-card-background:hover .custom-card{
+.custom-card:hover {
     box-shadow: 3px 6px 27px 0px #00000091;
 }
 
@@ -51,7 +56,7 @@
     transition: color 0.7s ease-in-out
 }
 
-.custom-card-background:hover .custom-link {
+.custom-card:hover .custom-link {
     color: var(--rusty-red)
 }
 
@@ -67,7 +72,7 @@
     transition: all 0.7s ease-in-out;
 }
 
-.custom-card-background:hover .tech-used {
+.custom-card:hover .tech-used {
     color: var(--rusty-red);
 }
 
@@ -83,7 +88,47 @@
     transition: all 0.7s ease-in-out;
 }
 
-.custom-card-background:hover .custom-badge {
+.custom-card:hover .custom-badge {
     background-color: var(--cherry-blossom-pink);
     color: black;
+}
+
+.custom-button {
+    background-color: var(--rose-quartz);
+    color: var(--white);
+    font-weight: 500;
+    border-color: transparent;
+    text-decoration: none;
+    border-radius: 6px;
+    box-shadow: 3px 6px 27px 0px #00000042;
+    padding: 0.35rem;
+    transition: all 0.4s ease-in-out;
+}
+
+.custom-button:hover {
+    color: var(--white); 
+    background-color: var(--rusty-red);
+}
+
+.card-img-custom {
+    width: auto;
+    height: 75%;
+}
+
+.custom-btn {
+    border-color: transparent;
+    border-radius: .25rem;
+    font-weight: 600;
+    background-color: transparent;
+    transition: all 0.4s ease-in-out;
+
+}
+
+.custom-card:hover .custom-btn {
+    background-color: var(--cherry-blossom-pink);
+    color: black;
+}
+
+.custom-btn:hover {
+    background-color: var(--light-pink) !important
 }

@@ -7,6 +7,7 @@ import Resume from '../pages/Resume';
 import Contact from '../pages/Contact';
 
 import '../styles/PortfolioContainer.css'
+import FullPortfolio from '../pages/FullPortfolio';
 
 export default function PortfolioContainer() {
   const [currentPage, setCurrentPage] = useState('About');
@@ -16,10 +17,13 @@ export default function PortfolioContainer() {
       return <About />;
     }
     if (currentPage === 'Portfolio') {
-      return <Portfolio />;
+      return <Portfolio handlePageChange={handlePageChange}/>;
     }
     if (currentPage === 'Resume') {
       return <Resume />;
+    }
+    if (currentPage === 'PortfolioArchive') {
+      return <FullPortfolio handlePageChange={handlePageChange}/>;
     }
     return <Contact />;
   };
