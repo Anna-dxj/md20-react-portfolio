@@ -19,7 +19,7 @@ export default function Home() {
   }, [])
 
   return (
-    <div className="container my-3 ">
+    <div className="container my-3">
       <h1 className="custom-txts">Resume 
         <a 
           href={`${process.env.PUBLIC_URL}/resume-langford.pdf`} 
@@ -36,8 +36,8 @@ export default function Home() {
           <BoxArrowUpRight />
         </a>
       </h1>
-      <div className="row d-flex flex-row justify-content-center">
-        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
+      <div className="row d-flex flex-row justify-content-center container">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-lg-5">
           <h2 className="card-title">Technical Skills</h2>
           <div className="card-body d-flex flex-column justify-content-around">
             <ResumeCard
@@ -52,7 +52,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-lg-5">
           <h2 className="card-title">Experience</h2>
           <div className="card-body d-flex flex-column justify-content-around">
           <ResumeCard 
@@ -75,7 +75,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-lg-5">
           <h2 className="card-title">Leadership and Involvement</h2>
           <div className="card-body d-flex flex-column justify-content-around">
             <ResumeCard 
@@ -96,7 +96,7 @@ export default function Home() {
             />
           </div>
         </div>
-        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-md-5">
+        <div className="custom-card-background container py-2 my-2 px-3 shadow-lg col-sm-12 col-lg-5">
           <h2 className="card-title">Education</h2>
           <div className="card-body d-flex flex-column flex-fill justify-content-around">
             <ResumeCard 
