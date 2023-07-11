@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import {Github, Youtube, BoxArrowUpRight} from 'react-bootstrap-icons'
 
-export default function ProjectCard({type, id, deployedLink, youtubeLink, imgSrc, imgAlt, name, repoLink, description, development, technologies}){
+export default function ProjectCard({type, id, deployedLink, youtubeLink, imgSrc, imgAlt, name, repoLink, description, development, username, email,  password, technologies}){
   const [expanded, setExpanded] = useState(false);
 
   const toggleDiv = () => {
@@ -61,17 +61,24 @@ export default function ProjectCard({type, id, deployedLink, youtubeLink, imgSrc
                   <p className="card-text">{development}</p>
                 </div>
               )}
-                {technologies && (
-                  <div>
-                    <p className="tech-used">Technologies:</p>
-                    <p>
-                      {technologies.split(', ')
-                        .map((tech) => {
-                          return (<span className="custom-badge px-1 me-1">{tech}</span>)
-                      })}
-                    </p>
-                  </div>
-                )}
+              {email && password && (
+                <div>
+                  <p className="m-0 tech-used">Guest user login information:</p>
+                  <p className="m-0"><span className="login-info">email</span>: {email}</p>
+                  <p><span className="login-info">password</span>: {password}</p>
+                </div>
+              )}
+              {technologies && (
+                <div>
+                  <p className="tech-used">Technologies:</p>
+                  <p>
+                    {technologies.split(', ')
+                      .map((tech) => {
+                        return (<span className="custom-badge px-1 me-1">{tech}</span>)
+                    })}
+                  </p>
+                </div>
+              )}
             </div>
           </div>
         </div>  
@@ -109,6 +116,13 @@ export default function ProjectCard({type, id, deployedLink, youtubeLink, imgSrc
                 </div>
               </div>
               <p>{description}</p>
+              {email && password && (
+                <div>
+                  <p className="tech-used m-0">Guest user login information:</p>
+                  <p className="m-0"><span className="login-info">email</span>: {email}</p>
+                  <p><span className="login-info">password</span>: {password}</p>
+                </div>
+              )}
             </div>
           </div>
           <div className="m-1 col-sm-12">

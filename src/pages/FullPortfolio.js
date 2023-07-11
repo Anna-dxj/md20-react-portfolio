@@ -57,6 +57,9 @@ export default function FullPortfolio({handlePageChange}) {
             name="LingoAI"
             repoLink="https://github.com/Anna-dxj/lingoai"
             description="Full-stack language application aimed at non-native Spanish speakers of any fluency and leverages AI technology to encourage language maintanance and vocabulary expansion. Developed front-ended conversational and game logic. Developed by a small group of 3 in 14 days."
+            username="guest-user"
+            email="guestuser@email.com"
+            password="password123"
             technologies="GraphQL, Mongoose & MongoDB, AntDesign, React, Express & Node, OpenAI, NLP Translation API, Express & Node, JavaScript, CSS"
           />
           <ProjectCard 
@@ -67,6 +70,9 @@ export default function FullPortfolio({handlePageChange}) {
             name="AnswerHub"
             repoLink="https://github.com/Michaelx626/AnswerHub"
             description="Social media platform for software developers of all experience levels, allowing users the opportunity to connect, network, and collaborate with peers and seek AI-powered assistance. Developed and maintained a consistent, clean, UI/UX. Developed by a small group of 3 in 14 days."
+            username="guest-user"
+            email="guestuser@email.com"
+            password="password123"
             technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, Daturi, Cloudinary, Multer, OpenAI, JavaScript, CSS"
           />
           <ProjectCard 
@@ -77,6 +83,9 @@ export default function FullPortfolio({handlePageChange}) {
             name="Tech Blog"
             repoLink="https://github.com/Anna-dxj/md14-tech-blog"
             description="Full-stack application for anyone with an interest in tech to share discoveries, insights, and commentary on tech and engage with a community of those who have similar interests."
+            username="guest-user"
+            email="guestuser@email.com"
+            password="password123"
             technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, JavaScript, CSS"
           /> 
           <ProjectCard 
@@ -97,6 +106,9 @@ export default function FullPortfolio({handlePageChange}) {
             name="Book Search"
             repoLink="https://github.com/Anna-dxj/md21-book-search"
             description="Full-stack search engine application for books that allows avid readers to search for and keep a list of books to read. Converted API from a RESTful API to a GraphQL API."
+            username="guest-user"
+            email="guestuser@email.com"
+            password="password123"
             technologies="GraphQL, MongoDB & Mongoose, Apollo, Node & Express, React, CSS, JavaScript"
           />
         </div>
