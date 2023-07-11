@@ -23,7 +23,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "pull-gh": "git pull origin main"
+    "pull-gh": "git pull origin main", 
+    "pull-deploy": "npm run pull-gh && npm run deploy"
   },
   "browserslist": {
     "production": [
