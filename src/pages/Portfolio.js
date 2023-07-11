@@ -32,7 +32,7 @@ const Portfolio = ({handlePageChange}) => {
         <main className="my-3 container">
             <h1 className="custom-txt">Portfolio</h1>
             <div className="row d-flex flex-row container justify-content-around py-3 col-sm-12">
-                <div className="row d-flex flex-row justify-content-center m-2 py-3 px-4 col-sm-12 custom-card-background">
+                <div className="row d-flex flex-row justify-content-center m-2 py-3 px-4 col-sm-12 col-md-9 custom-card-background">
                     <ProjectCard 
                         type="featured"
                         id="proj-1"
