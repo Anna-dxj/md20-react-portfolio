@@ -136,3 +136,8 @@
 .login-info {
     font-weight: 600;
 }
+
+.icon {
+    padding: 0.1rem;
+    margin: 0.2rem;
+}

@@ -10,8 +10,8 @@ export default function ProjectCard({type, id, deployedLink, youtubeLink, imgSrc
   return (
     <>
       {type === 'featured' ? (
-        <div className="row d-flex flex-row justify-content-center align-items-top m-2 py-3 px-4 col-sm-12 col-md-5">
-          <div className="d-flex flex-column justify-content-center custom-card px-2 py-3">
+        <div className="row d-flex flex-row justify-content-center align-items-top m-2 py-3 px-4 col-sm-12 col-lg-5">
+          <div className="d-flex flex-column justify-content-center custom-card px-2 py-3 col-sm-12">
             <img 
               src={imgSrc} 
               alt={`Screenshot of ${imgAlt}`}
