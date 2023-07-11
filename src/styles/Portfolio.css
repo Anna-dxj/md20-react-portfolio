@@ -132,3 +132,7 @@
 .custom-btn:hover {
     background-color: var(--light-pink) !important
 }
+
+.login-info {
+    font-weight: 600;
+}

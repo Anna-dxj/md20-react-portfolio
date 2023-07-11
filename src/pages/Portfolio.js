@@ -42,6 +42,9 @@ const Portfolio = ({handlePageChange}) => {
                         name="LingoAI"
                         repoLink="https://github.com/Anna-dxj/lingoai"
                         description="Language application aimed at non-native speakers of Spanish of any level of fluency to maintain and improve Spanish. LingoAI offers users the oportunity to play the Word Chain game or to practice conversational skills with an AI."
+                        username="guest-user"
+                        email="guestuser@email.com"
+                        password="password123"
                         development="Developed within a 13-day period by a small group, our team utilized paired programming during the initial server and model setup and subsequently adhered to agile development principles, ensuring regular meetings and effective communication of progress, successes, and blockers. While I aided in the initial backend setup and the OpenAI configuration, my main responsibility lay in figuring out how to best use our UI library and spearheading the front-end game and conversation elements and logic. This project received an exceptional score of 100%. LingoAI was the capstone project for the UCLA bootcamp, and it is a project that I intend to continue to develop. Looking ahead, our plans for future development involve expanding LingoAI to include other languages, as well as incorporating additional word games tailored to accommodate different orthographies and lexicons."
                         technologies="GraphQL, Mongoose & MongoDB, AntDesign, React, OpenAI, NLP Translation API, Express & Node, Client-Server, JavaScript, CSS"
                     />
@@ -55,6 +58,9 @@ const Portfolio = ({handlePageChange}) => {
                         repoLink="https://github.com/Michaelx626/AnswerHub"
                         description="Full-stack social media platform for software developers of all all experience, allowing users the opportunity to connect, network, and collaborate with peers, and seek AI-powered assistance."
                         development="Developed in a 13-day period as a small group product, we primarily adhered to agile development principles, ensuring regular meetings and effective communication of progress. I played a key role in creating the Entity-Relationship Diagram, however, my primary responsibility centered around ensuring a clean, consistent, and responsive design. One of the major challenges we encountered was related to proper GitHub workflow. which resulted in a significant merge conflict near the project’s completion, leading to the loss of two days’ work. Taking charge of the situation, I resolved all merge conflicts and other more minor GitHub workflow conflicts that my groupmates encountered. Thanks to our efforts, we were able to recover all previously approved changes and present a fully functional application."
+                        username="guest-user"
+                        email="guestuser@email.com"
+                        password="password123"
                         technologies="MySQL & Sequelize, Handlebars, Bootstrap, Express & Node, Daturi, Cloudinary, Multer, OpenAI, MVC, JavaScript, CSS"
                     />
                     <ProjectCard 
