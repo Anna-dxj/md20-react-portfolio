@@ -48,7 +48,7 @@ export default function FullPortfolio({handlePageChange}) {
           Return to Portfolio
         </a>
         <div className="row d-flex flex-row container justify-content-around my-3 pt-2 pb-3 custom-card-background">
-          <h2 className="card-title p-2 custom-txt-header">Fullstack Applications</h2>
+          <h2 className="card-title p-2 custom-txt-header">Full Stack Applications</h2>
           <ProjectCard 
             type="archived"
             deployedLink="https://lingoai.herokuapp.com/"
@@ -82,7 +82,7 @@ export default function FullPortfolio({handlePageChange}) {
             imgAlt="Tech Blog's home page"
             name="Tech Blog"
             repoLink="https://github.com/Anna-dxj/md14-tech-blog"
-            description="Fullstack application for anyone intereseted in tech to share discoveries, insights, and commentary on tech and engage with a community of those with similar interests. Developed application from scratch."
+            description="Full stack application for anyone intereseted in tech to share discoveries, insights, and commentary on tech and engage with a community of those with similar interests. Developed application from scratch."
             username="guest-user"
             email="guestuser@email.com"
             password="password123"
@@ -95,7 +95,7 @@ export default function FullPortfolio({handlePageChange}) {
             imgAlt="JATE home screen after download"
             name="JATE Text Editor"
             repoLink="https://github.com/Anna-dxj/md19-text-editor"
-            description="Fullstack Progressive Web Application (PWA) text editor with JavaScript syntax highlighting that has the ability to create notes, or code snippets to be saved for future use or reference. Converted application into a PWA and have limited offline capability."
+            description="Full stack Progressive Web Application (PWA) text editor with JavaScript syntax highlighting that has the ability to create notes, or code snippets to be saved for future use or reference. Converted application into a PWA and have limited offline capability."
             technologies="PWA, Node & Express, Webpack, Service Workers, Bable, Workbox, JavaScript"
           />
           <ProjectCard
@@ -105,7 +105,7 @@ export default function FullPortfolio({handlePageChange}) {
             imgAlt="Book Search search results"
             name="Book Search"
             repoLink="https://github.com/Anna-dxj/md21-book-search"
-            description="Fullstack search engine application for books that allows avid readers to search for and keep a list of books to read. Converted from RESTful API to a GraphQL API."
+            description="Full stack search engine application for books that allows avid readers to search for and keep a list of books to read. Converted from RESTful API to a GraphQL API."
             username="guest-user"
             email="guestuser@email.com"
             password="password123"
@@ -141,7 +141,7 @@ export default function FullPortfolio({handlePageChange}) {
           imgAlt="Note Taker Application Sample Note"
           name="Note Taker"
           repoLink="https://github.com/Anna-dxj/md11-note-taker"
-          description="Fullstack application that can be used to write and save notes, track todos, and organize thoughts. Connected the pre-existing frontend to an Express.js backend."
+          description="Full stack application that can be used to write and save notes, track todos, and organize thoughts. Connected the pre-existing frontend to an Express.js backend."
           technologies="Node, Express, RESTful API, JavaScript"
         />
         <ProjectCard 
